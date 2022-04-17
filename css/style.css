@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primaryColor:rgb(43, 116, 43);
+    --color:whitesmoke;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+.text-color
+{
+    color:var(--primaryColor)
+}
+.btn-color
+{
+    background:var(--primaryColor)
+}
+.form-control
+{
+    border-radius:none!important;
+    box-shadow: none!important;
+}
+/* -----------------------header------------------------ */
+header{
+    background:linear-gradient(to bottom,rgb(14, 13, 13),rgba(43, 116, 43, 0.424)),url(../images/redd-PTRzqc_h1r4-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+.nav-link
+{
+    font-size: 17px;
+}
+header .header-content
+{
+    position: relative;
+    top:15%;
+    width:50%;
+    left:10%;
+    color:var(--color);
+    
+    
+}
+/* -----------------------header------------------------ */
+
+/* <!-- -------------------------------------history-section---------------------------------------------- --> */
+
+#history h2{
+    font-weight: bold;
+}
+
+/* <!-- -------------------------------------history-section---------------------------------------------- --> */
+.img
+{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+}
+
+/* <!-- -------------------------------------testimonials-section---------------------------------------------- --> */
+
+#testimonals .card
+{
+    background:var(--primaryColor)
+
+}
+/* <!-- -------------------------------------testimonials-section---------------------------------------------- --> */
+
+
+/* <!-- -------------------------------------contact-section---------------------------------------------- --> */
+#contact-section form{
+    width: 100%;
+    margin:auto;
+}
+
+
+/* <!-- -------------------------------------contact-section---------------------------------------------- --> */
+
+
+
+
+/* -----------------------@mediaScree------------------------ */
+@media screen and (max-width:786px)
+{
+    .navbar{
+        z-index:100;
+        background:var(--primaryColor);
+        text-align:center
+    }
+    .navbar-brand
+    {
+        color:var(--color)!important;
+    }
+    header .header-content
+    {
+        position: relative;
+        top:10%;
+        width:90%;
+        left:5%;
+        color:var(--color);
+        text-align:left;
+    }
+
+/* -------------history---------- */
+    #history h2
+    {
+        text-align:center
+        
+    }
+    #history button.btn
+    {width: 100%;
+        margin:auto;
+        margin:20px 0;
+    }
+
+    
+/* -------------history---------- */
+
+/* -------------about---------- */
+
+    #about h1,.small
+    {
+        text-align: center;
+    }
+    #about .card{
+        margin:auto
+    }
+
+/* -------------about---------- */
+
+
+/* ------------process---------- */
+
+    #process .row
+    {
+        text-align: center;
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+/* ------------process---------- */
+
+
+/* ------------testimonals---------- */
+#testimonals .card
+{
+    width: 100%;
+   margin:auto;
+   text-align: center;
+}
+#testimonals .card img
+{
+    margin:20px auto;
+    
+}
+
+/* ------------testimonals---------- */
+
+
+}
+/* -----------------------@mediaScree------------------------ */
